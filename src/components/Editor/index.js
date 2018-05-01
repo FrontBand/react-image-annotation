@@ -76,7 +76,7 @@ function Editor (props) {
     >
       <Inner>
         <textarea
-          placeholder='Write description'
+          placeholder='Hotspot name'
           onChange={e => props.onChange({
             ...props.annotation,
             data: {
@@ -91,7 +91,7 @@ function Editor (props) {
       <Button
         onClick={props.onSubmit}
       >
-        Submit
+        Add Hotspot
       </Button>
     </Container>
   )

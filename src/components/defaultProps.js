@@ -107,7 +107,7 @@ export default {
       default:
         return (
           <Overlay>
-            Click and Drag to Annotate
+              Click and Drag to add Hotspot Images
           </Overlay>
         )
     }
